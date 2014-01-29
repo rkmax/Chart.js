@@ -1,2 +1,47 @@
+# Symfony Files
+/web/bundles/
+/web/css/
+/web/js/
+/app/bootstrap.php.cache
+/app/cache/*
+/app/config/parameters.yml
+/app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+/build/
+/vendor/
+/bin/
+/composer.phar
 
-.DS_Store
+# Bower vendors
+src/Incoder/Bundle/SiiaBundle/Resources/public/libs/*
+!src/Incoder/Bundle/SiiaBundle/Resources/public/libs/.gitkeep
+
+# Your own phpunit
+app/phpunit.xml
+
+# IDE and Text Editor files (Sublime, Netbeans)
+
+# Sublime Text 2
+.sublime-*
+
+# Netbeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+build.xml
+build.properties
+*.orig
+
+#Node modules
+node_modules
+
+#Grunt PEG generate files
+src/RRS/Bundle/DFormBundle/Resources/public/js/lib/*
+
+#PHPStorm
+.idea/
