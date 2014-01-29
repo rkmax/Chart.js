@@ -1309,6 +1309,12 @@ window.Chart = function(context){
 		        }
 	        };
 
+            if (stepValue < 1) {
+                stepValue = 1;
+            } else {
+                stepValue = Math.round(stepValue);
+            }
+
 	        var labels = [];
 	        populateLabels(labelTemplateString, labels, numberOfSteps, graphMin, stepValue);
 		
