@@ -1089,9 +1089,8 @@ window.Chart = function(context){
 					}
 					ctx.closePath();
 					ctx.fill();					
-					if(config.showLabelsOnBars){
-						drawBarText(ctx,currentBarTop,barOffset+(barWidth/2) ,config.barLabelFontSize,data.datasets[i].data[j],config.barLabelFontColor);
-					}
+					
+					drawBarText(ctx,currentBarTop,barOffset+(barWidth/2) ,config.barLabelFontSize,data.datasets[i].data[j],config.barLabelFontColor);
 				}
 			}
 			
